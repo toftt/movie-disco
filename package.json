@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/toftt/movie-disco.git",
-  "author": "Joachim Toft",
+  "author": "Joachim Toft, Henry Bogaeus",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack -p",
+    "server": "webpack-dev-server --colors --progress"
+  },
   "dependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^6.4.1",
